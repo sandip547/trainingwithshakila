@@ -2,6 +2,7 @@ package com.example.factoryexample;
 
 import com.example.Person;
 
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,12 +13,14 @@ import java.util.stream.Stream;
 public class RunFactoryClass {
     public static void main(String[] args) {
         List<Person> list = Arrays.asList(new Person(UUID.randomUUID(),34),new Person(UUID.randomUUID(),36));
-
+        new ArrayList<>();
         Integer []  a = new Integer[6];
+        System.out.println("Hello tehre");
 
 //        for (Integer i: list){
 //            System.out.println(i);
 //        }
+
 
 
         list.stream().forEach(val -> {
