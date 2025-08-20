@@ -15,7 +15,7 @@ public class RunFactoryClass {
         List<Person> list = Arrays.asList(new Person(UUID.randomUUID(),34),new Person(UUID.randomUUID(),36));
         new ArrayList<>();
         Integer []  a = new Integer[6];
-        System.out.println("Hello tehre");
+        System.out.println("Hello tehreee");
 
 //        for (Integer i: list){
 //            System.out.println(i);
